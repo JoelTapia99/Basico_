@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="icon" type="image/png" href="imagenes/favicon.png">
+    <!--hoja de fuentes de google-->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <figure>
+                <img src="imagenes/logo.png" alt="logo principal de la pagina" />
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#eventos">experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>
+            Hola soy <strong> Joel Tapia</strong>
+            <br />
+            <strong>Estudiante </strong> de Desarollo de Software.
+        </h1>
+        <!-- <img src="imagenes/hero.jpg" alt="Banner" width="500" /> -->
+    </section>
+
+    <section class="porfolio" id="portafolio">
+        <h2>Portafolio (Proyectos destacados)</h2>
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project-title">Platzi video</h3>
+                <h6 class="project-course">Angular 2 / JS</h6>
+                <p class="project-date"><small><strong>Fecha:</strong>21/11/2019</small></p>
+                <p class="project-url"><small><strong>puedes ver en: </strong>www.example.com</small></p>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit illum
+                    soluta vel, repellat debitis
+                    beatae tempora quo accusamus fuga ipsa consectetur voluptatum? Recusandae officiis reprehenderit,
+                    aperiam aliquid vel fugit neque.</p>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="imagenes/platzi-video-react-native.png" alt="imagen3" width="500" />
+                </figure>
+            </div>
+        </article>
+    </section>
+
+    <section id="eventos">
+        <h2>Mas sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="imagenes/platzi-conf.jpg" width="500">
+            </figure>
+        </article>
+        <h3 class="event-title">Platzi Ecuador 2019</h3>
+        <p class="event-descrition">pararafo para prueba de CS</p>
+        <a class="event-url" href="https://www.youtube.com/watch?v=W7RXNObhNRk" target="_bank">Ver trabajo</a>
+        <!--target="_bank" (sirve para que se abra en una nuev ventana el enlace)-->
+    </section>
+    <section id="contacto" class="contact">
+        <!--El for redirecciona al id con el nombre que se haya colocado-->
+        <form class="form-email" action="/suscripcion/">
+            <h3>¿Creamos algo juntos?</h3>
+            <label for="email">Déjame tu email</label>
+            <input type="datetime" placeholder="ejemplo@gmail.com" id="email">
+            <input type="submit" value="Degundo Boton">
+            <button>Eviar</button>
+        </form>
+    </section>
+    <footer class="footer">footer</footer>
+
+</body>
+
+</html>
