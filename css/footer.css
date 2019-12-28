@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    background-color: #1b2127;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer img{
+    vertical-align: middle;
+
+}

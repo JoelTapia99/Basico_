@@ -1,0 +1,45 @@
+.porfolio {
+    
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.project {
+    border: 5px solid grey;
+    border-radius: 10px;
+    margin: 3px; /* la separacion que hay entre el elemento a otros elementos*/
+    /* padding: 10px;  es la separacion de adentro hacia afuera del elemento */
+    /*box-sizing: border-box;  sirve para que la dimension de la caja no exeda lo establesido */
+  /* border-top: 10px solid red;       /*tamaño,tipo, color(borde superior) */
+  /* border-right: 10px solid green;   /*tamaño,tipo, color(borde derecho)*/
+  /* border-left: 10px solid red;      /*tamaño,tipo, color(borde isquierdo)*/
+  /* border-bottom: 10px solid red;    /*tamaño,tipo, color(borde inferior)*/
+  /* border-style: solid; */
+    /*border-color:blue */
+    /*si quiero afectar a solo un borde lo puedo hacer:
+    border-top-color: red;
+    border-top-width: 10px; */
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+   /*  font-weight: bold;  combierte la fuente en negrita*/
+   font-size: 22px;
+   margin-bottom: 40px;
+}
+
+.project-details{
+    width: 500px;
+
+}
+
+.project-imageContainer{
+    width: 500px;
+    
+}

@@ -3,25 +3,17 @@ Selectores
 declaraciones
 propiedades
 valores*/
-/*-------------------------------------header-------------------------------------*/
 
-.header{
-    background-color: #1b2127; /* fondo de cierto color */
-    color: white; /* color de la letra */
-}
-
-.header a {
-    color:white;
-    text-decoration: none;
-}
 /*-------------------------------------hero-------------------------------------*/
 .hero{
+    display: flex;
     height: 300px;
     background-image: url('../imagenes/hero.jpg'); /* Se coloca una imagen como fondo */ 
     background-size: 500px 300px;   /* tamaño del contenedor */
     background-repeat: no-repeat;   /* no se repite la imagen de fonde */
     background-position-x: right;   /* alineación de  la imagen de fondo */
     background-color: #1b2127;      /* color de fondo */
+    align-items: center;
 }
 
 /*-------------------------------------portafolio-------------------------------------*/
@@ -38,6 +30,7 @@ h1{
     letter-spacing: 10px; /*espacio entre cada letra*/
     line-height: 1.5em; /*espacio entre lineas*/
     color: white;
+    margin: 0;
     /* text-transform: capitalize; */ /*si tu letras son mayusculas o minusculas*/
     /* text-decoration: underline; */ /*decorador de texto como subrayado, color, tachado, etc*/
 }
@@ -45,36 +38,27 @@ h1 strong {
     color: #026fff;
 }
 
-.project {
-    border: 5px solid grey;
-    border-radius: 10px;
-    margin: 3px; /* la separacion que hay entre el elemento a otros elementos*/
-    padding: 10px; /* es la separacion de adentro hacia afuera del elemento */
-    box-sizing: border-box; /* sirve para que la dimension de la caja no exeda lo establesido */
-  /* border-top: 10px solid red;       /*tamaño,tipo, color(borde superior) */
-  /* border-right: 10px solid green;   /*tamaño,tipo, color(borde derecho)*/
-  /* border-left: 10px solid red;      /*tamaño,tipo, color(borde isquierdo)*/
-  /* border-bottom: 10px solid red;    /*tamaño,tipo, color(borde inferior)*/
-  /* border-style: solid; */
-    /*border-color:blue */
-    /*si quiero afectar a solo un borde lo puedo hacer:
-    border-top-color: red;
-    border-top-width: 10px; */
 
-}
 
-.project-details{
-    width: 500px;
-
-}
-
-.project-imageContainer{
-    width: 500px;
-    
-}
 
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
 }
+
+/*
+para la propiedad flex;
+
+.fex{
+    display: flex;
+    fex-wrap: wrap; hace que cundo yo no entren en la pantalla se coloquen en la fila de abajo
+    justify-content: center; alineamiento de los elementos
+    justify-content: space-between; espaciado entre los elementos, ecxepto el primero y ultimo
+    justify-content: space-evenly; espaciado entre los elementos
+    flex-direction: column; se alinea por columna
+    align-items: center;
+    
+
+
+*/
